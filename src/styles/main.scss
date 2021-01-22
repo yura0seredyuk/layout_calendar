@@ -1,3 +1,20 @@
+@import "global";
+@import "variables";
+@import "mixins";
+@import "calendar_month";
+@import "calendar_day";
+@import "animation";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
