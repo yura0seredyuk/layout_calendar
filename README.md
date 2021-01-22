@@ -1,6 +1,6 @@
 # Calendar
 1. Replace `<your_account>` with your Github username in the links
-    - [DEMO LINK](https://<your_account>.github.io/layout_calendar/)
+    - [DEMO LINK](https://yura0seredyuk.github.io/layout_calendar/)
     - [TEST REPORT LINK](https://<your_account>.github.io/layout_calendar/report/html_report/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
     - Write styles in `src/styles/main.scss` instead of `src/style.css`.
