@@ -4,11 +4,12 @@
   background: #eee;
   border: 1px solid black;
   flex-direction: row;
-  margin: 0.5px;
+  margin: 1px;
+  gap: 1px;
 }
 
-@mixin leveling {
-  line-height: 100px;
+@mixin position {
   display: flex;
+  line-height: 100px;
   justify-content: center;
 }
