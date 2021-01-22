@@ -1,0 +1,14 @@
+@mixin day_property {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid black;
+  flex-direction: row;
+  margin: 0.5px;
+}
+
+@mixin leveling {
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+}

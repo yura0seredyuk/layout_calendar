@@ -1,0 +1,7 @@
+@each $day, $index, $marginLeft in $days {
+  .calendar-#{$day} {
+    div:nth-child(1) {
+      margin-left: #{$marginLeft + 1px * $index};
+    }
+  }
+}

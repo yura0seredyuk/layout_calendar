@@ -1,0 +1,61 @@
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 708px;
+}
+
+.calendar-28 {
+  @for $day from 1 through 28 {
+    @for $num from 1 through $day {
+      div:nth-child(#{$num})::after {
+        content: "#{$num}";
+        @include leveling;
+      }
+    }
+    div:nth-child(#{$day}) {
+      @include day_property;
+    }
+  }
+}
+
+.calendar-29 {
+  @for $day from 1 through 29 {
+    @for $num from 1 through $day {
+      div:nth-child(#{$num})::after {
+        content: "#{$num}";
+        @include leveling;
+      }
+    }
+    div:nth-child(#{$day}) {
+      @include day_property;
+    }
+  }
+}
+
+.calendar-30 {
+  @for $day from 1 through 30 {
+    @for $num from 1 through $day {
+      div:nth-child(#{$num})::after {
+        content: "#{$num}";
+        @include leveling;
+      }
+    }
+    div:nth-child(#{$day}) {
+      @include day_property;
+    }
+  }
+}
+
+.calendar-31 {
+  @for $day from 1 through 31 {
+    @for $num from 1 through $day {
+      div:nth-child(#{$num})::after {
+        content: "#{$num}";
+        @include leveling;
+      }
+    }
+    div:nth-child(#{$day}) {
+      @include day_property;
+    }
+  }
+}
