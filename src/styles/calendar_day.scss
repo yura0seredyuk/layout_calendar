@@ -1,28 +1,9 @@
-@for $i from 1 through 28 {
-  .calendar-28 div:nth-child(#{$i})::after {
-    content: "#{$i}";
-    @include position;
-  }
-}
-
-@for $i from 1 through 29 {
-  .calendar-29 div:nth-child(#{$i})::after {
-    content: "#{$i}";
-    @include position;
-  }
-}
-
-@for $i from 1 through 30 {
-  .calendar-30 div:nth-child(#{$i})::after {
-    content: "#{$i}";
-    @include position;
-  }
-}
-
-@for $i from 1 through 31 {
-  .calendar-31 div:nth-child(#{$i})::after {
-    content: "#{$i}";
-    @include position;
+@each $day-month, $days-in-month in $month-length {
+  @for $i from 1 through $days-in-month {
+    .#{$day-month} div:nth-child(#{$i})::after {
+      content: "#{$i}";
+      @include position;
+    }
   }
 }
 
