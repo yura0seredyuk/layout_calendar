@@ -2,7 +2,6 @@
   @for $i from 1 through $days-in-month {
     .#{$day-month} div:nth-child(#{$i})::after {
       content: "#{$i}";
-      @include position;
     }
   }
 }

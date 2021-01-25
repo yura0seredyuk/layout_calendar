@@ -1,3 +1,6 @@
+$month-length: (calendar-28: 28, calendar-29: 29, 
+calendar-30: 30, calendar-31: 31);
+
 $days:
   "mon" 1px 0,
   "tue" 3px 100px,
@@ -6,6 +9,3 @@ $days:
   "fri" 9px 400px,
   "sat" 11px 500px,
   "sun" 13px 600px;
-  
-$month-length: (calendar-28: 28, calendar-29: 29, 
-calendar-30: 30, calendar-31: 31);
