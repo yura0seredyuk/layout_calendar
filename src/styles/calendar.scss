@@ -1,0 +1,28 @@
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 715px;
+
+  & > div {
+    @include position;
+    @include day_property;
+  }
+
+  &-30 {
+    div:nth-last-child(-n+1) {
+      display: none;
+    }
+  }
+
+  &-29 {
+    div:nth-last-child(-n+2) {
+      display: none;
+    }
+  }
+
+  &-28 {
+    div:nth-last-child(-n+3) {
+      display: none;
+    }
+  }
+}
